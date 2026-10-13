@@ -1,0 +1,42 @@
+[
+  {
+    "complaint_id": "CMP-TEST-99",
+    "complaint_text": "Test complaint for feedback endpoint",
+    "predicted_category": "Customer Service & Delays",
+    "corrected_category": "Billing & Overdraft Fees",
+    "predicted_urgency": "Low",
+    "corrected_urgency": "Medium",
+    "reviewer_notes": "Misclassified fee complaint as customer service",
+    "timestamp": "2026-10-12 15:57:17"
+  },
+  {
+    "complaint_id": "CMP-TEST-99",
+    "complaint_text": "Test complaint for feedback endpoint",
+    "predicted_category": "Customer Service & Delays",
+    "corrected_category": "Billing & Overdraft Fees",
+    "predicted_urgency": "Low",
+    "corrected_urgency": "Medium",
+    "reviewer_notes": "Misclassified fee complaint as customer service",
+    "timestamp": "2026-10-12 15:58:05"
+  },
+  {
+    "complaint_id": "CMP-TEST-99",
+    "complaint_text": "Test complaint for feedback endpoint",
+    "predicted_category": "Customer Service & Delays",
+    "corrected_category": "Billing & Overdraft Fees",
+    "predicted_urgency": "Low",
+    "corrected_urgency": "Medium",
+    "reviewer_notes": "Misclassified fee complaint as customer service",
+    "timestamp": "2026-10-12 15:59:31"
+  },
+  {
+    "complaint_id": "CMP-1368",
+    "complaint_text": "I was charged an unexpected overdraft fee of $45 on my checking account even though my direct deposit was posted the same morning. This is completely unfair and I demand a refund.",
+    "predicted_category": "Billing & Overdraft Fees",
+    "corrected_category": "Billing & Overdraft Fees",
+    "predicted_urgency": "Low",
+    "corrected_urgency": "Low",
+    "reviewer_notes": "",
+    "timestamp": "2026-10-12 16:23:44"
+  }
+]

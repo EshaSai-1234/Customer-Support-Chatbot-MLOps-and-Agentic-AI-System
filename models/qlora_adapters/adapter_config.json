@@ -1,0 +1,33 @@
+{
+  "base_model_name_or_path": "HuggingFaceTB/SmolLM2-360M-Instruct",
+  "lora_r": 16,
+  "lora_alpha": 32.0,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "task_type": "CAUSAL_LM_SEQUENCE_CLASSIFICATION",
+  "parameter_stats": {
+    "total_parameters": 553990,
+    "trainable_parameters": 8966,
+    "frozen_parameters": 545024,
+    "trainable_percent": 1.62
+  },
+  "training_time_seconds": 1.78,
+  "loss_progression": [
+    {
+      "epoch": 1,
+      "loss": 1.7513
+    },
+    {
+      "epoch": 2,
+      "loss": 1.1921
+    },
+    {
+      "epoch": 3,
+      "loss": 0.4551
+    }
+  ],
+  "saved_at": "2026-10-12 16:09:14"
+}

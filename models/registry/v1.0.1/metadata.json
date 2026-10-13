@@ -1,0 +1,235 @@
+{
+  "version": "v1.0.1",
+  "timestamp": "2026-10-13 09:27:51",
+  "train_samples": 563,
+  "test_samples": 141,
+  "total_samples": 704,
+  "data_hash": "a40cf560302a",
+  "hyperparameters": {
+    "tfidf": {
+      "max_features": 4000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "stop_words": "english",
+      "min_df": 2
+    },
+    "logistic_regression": {
+      "C": 1.5,
+      "max_iter": 1000,
+      "class_weight": "balanced",
+      "solver": "lbfgs",
+      "random_state": 42
+    },
+    "test_size": 0.2
+  },
+  "metrics": {
+    "category": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "labels": [
+        "Account Access & Security",
+        "Billing & Overdraft Fees",
+        "Credit Reporting & Inquiries",
+        "Customer Service & Delays",
+        "Fraud & Unauthorized Transactions",
+        "Loan & Mortgage Servicing"
+      ],
+      "confusion_matrix": [
+        [
+          27,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          30,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          21,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          13,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          35,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          15
+        ]
+      ]
+    },
+    "sentiment": {
+      "accuracy": 0.8723,
+      "macro_f1": 0.8383,
+      "weighted_f1": 0.8793,
+      "precision_macro": 0.8058,
+      "recall_macro": 0.9248,
+      "labels": [
+        "Dissatisfied",
+        "Extremely Frustrated / Hostile",
+        "Positive / Neutral"
+      ],
+      "confusion_matrix": [
+        [
+          67,
+          5,
+          12
+        ],
+        [
+          1,
+          42,
+          0
+        ],
+        [
+          0,
+          0,
+          14
+        ]
+      ]
+    },
+    "urgency": {
+      "accuracy": 0.9007,
+      "macro_f1": 0.8963,
+      "weighted_f1": 0.9016,
+      "precision_macro": 0.8982,
+      "recall_macro": 0.9091,
+      "labels": [
+        "Critical",
+        "High",
+        "Low",
+        "Medium"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          1,
+          0,
+          0
+        ],
+        [
+          5,
+          22,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          27,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          46
+        ]
+      ]
+    },
+    "action": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "labels": [
+        "Credit Bureau Dispute Correction Workflow",
+        "Fee Waiver & Account Balance Adjustment",
+        "Immediate Security Freeze & Fraud Review",
+        "Loan Servicing Specialist Outreach",
+        "Priority Tier 2 Callback & Investigation",
+        "Standard Guidance & Self-Service FAQ"
+      ],
+      "confusion_matrix": [
+        [
+          21,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          30,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          35,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          15,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          27,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          13
+        ]
+      ]
+    }
+  },
+  "latency": {
+    "p50_latency_ms": 2.45,
+    "p95_latency_ms": 4.98,
+    "p99_latency_ms": 5.81,
+    "avg_latency_ms": 2.71
+  },
+  "saved_at": "2026-10-13 09:27:51"
+}
